@@ -1,0 +1,57 @@
+:root{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: sans-serif;
+    flex-direction: column;
+    background-color: indigo;
+}
+.title{
+    font-family: "Sacramento";
+    color: white;
+    font-size: xx-large;
+
+}
+
+.container{
+    display: flex;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: lightgrey medium solid;
+}
+
+.container input{
+    border: thick lightgrey solid;
+    width: 20%;
+    text-align: center;
+    padding: 25px auto;
+    outline: none;
+    border-radius: 5px;
+    height: 35px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: monospace;
+    appearance: text;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}/* courtsey w3schools.com  */
